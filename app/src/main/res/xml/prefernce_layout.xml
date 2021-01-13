@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditTextPreference
+        android:defaultValue="3"
+        android:key="number_of_states"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Number of States"
+        />
+    <EditTextPreference
+        android:defaultValue="10"
+        android:key="number_of_jumpes"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Number of jumps" />
+</PreferenceScreen>

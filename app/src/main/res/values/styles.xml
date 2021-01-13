@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="table_edit_text" parent="@android:style/Widget.EditText" >
+        <item name="android:textSize" >25sp</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:hint" >0..1</item>
+        <item name="android:gravity">center</item>
+        <item name="backgroundColor">@color/grey</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="button">
+    <item name="backgroundColor" >@color/design_default_color_primary_variant</item>
+    </style>
+</resources>
